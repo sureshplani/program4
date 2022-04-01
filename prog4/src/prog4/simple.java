@@ -9,7 +9,6 @@ public class simple {
     Scanner sc=new Scanner(System.in);
     String A= sc.nextLine();
     String B=sc.nextLine();
-    //if(A.compareTo(B)>0)
     System.out.println(A.length()+B.length());
     if(A.compareTo(B)>0)
     System.out.println("yes");
